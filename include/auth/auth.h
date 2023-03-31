@@ -125,12 +125,6 @@ AUTH_EXPORT void silverse_auth_print_token (
 	const SilverseAuth *silverse_auth
 );
 
-AUTH_EXPORT unsigned int silverse_single_authentication (
-	const struct _HttpReceive *http_receive,
-	const struct _HttpRequest *request,
-	const char *resource
-);
-
 AUTH_EXPORT unsigned int silverse_custom_authentication_handler (
 	const struct _HttpReceive *http_receive,
 	const struct _HttpRequest *request
