@@ -1,2 +1,3 @@
 # libauth
-Silverse Services Authentication Library
+
+Silverse Web Services Authentication Library
